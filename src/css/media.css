@@ -1,0 +1,358 @@
+@media screen and (min-width: 375px) {
+    .container{
+        max-width: 366px;
+    }
+
+    .hero-btn, .hero-link{
+        padding: 12px 28px;
+ }
+
+    .benefits-item{
+        max-width: 308px;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .container{
+        max-width: 734px;
+    }
+    
+    .open-menu-btn{
+        display: none;
+    }
+
+    .header-list{
+        display: flex;
+        margin: 0 auto;
+        gap: 24px;
+    }
+
+
+.header-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    color: var(--main-text);
+    transition: color var(--transition)
+    }
+    
+    .header-link:hover,
+    .header-link:focus{
+       color: var(--span-color)
+    }
+    
+    .header-icon{
+        fill:var(--main-text);
+        transition: fill var(--transition);
+    }
+    
+    .soc-link:hover .header-icon,
+    .soc-link:focus .header-icon{
+        fill: var(--span-color);
+    }
+    .header-soc-list{
+        display: flex;
+      gap: 18px;
+    }
+
+    .hero-btn, .hero-link{
+           padding: 14px 40px;
+    }
+
+    .hero-scroll{
+        margin-left: auto;
+        margin-top: unset;
+    }
+
+    .hero-container{
+          padding: 670px 40px 40px 40px;
+          background-image: linear-gradient(180deg, rgba(17, 17, 17, 0.4) 0%, rgba(17, 17, 17, 0.4) 100%)
+          ,url(../img/chocolate-tab.jpeg);
+    }
+
+
+    @media (min-device-pixel-ratio:2), 
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx){
+        .hero-container{
+            background-image: linear-gradient(180deg, rgba(17, 17, 17, 0.4) 0%, rgba(17, 17, 17, 0.4) 100%)
+       ,url(../img/chocolate-tab-2x.jpg);
+        }
+    }
+
+    .hero-title{
+        font-size: 28px;
+        line-height: 1.21;
+    }
+
+    .benefits{
+     padding-top: 50px;
+     padding-bottom: 50px;
+    }
+
+    .benefits-item{
+       max-width: unset;
+          width: calc((100% - 32px) / 2);
+    }
+
+    .benefits-list{
+        gap: 32px;
+    }
+
+    .taste{
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+    
+    .taste-title{
+        margin-bottom: 28px;
+    }
+
+    .taste-text{
+        margin-bottom: 50px;
+    }
+
+    .taste-list{
+      gap: 32px;
+    }
+
+    .taste-item {
+        width: calc((100% - 32px) / 2);
+    }
+     
+    .made{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .made > .container{
+        max-width: 644px;
+    }
+     
+    .made-com-container{
+        width: 100%;
+        padding: 32px;
+    }
+
+    .made-title{
+        margin-bottom: 50px;
+    }
+
+    .made-title-h3{
+           max-width: 350px;
+           margin-bottom: 28px;
+    }
+
+    .made-item{
+        max-width: 480px;
+    }
+
+    .love{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .loved-list{
+        gap: 50px 16px;
+        justify-content: center;
+    }
+
+    .loved-item{
+          width: calc((100% - 16px) / 2);
+    }
+
+    .footer-container{
+          padding-top: 50px;
+    padding-bottom: 50px;
+    }
+    .wrapper{
+       display: flex;
+       justify-content: space-between;
+       padding-bottom: 50px;
+    }
+
+    .wrapp-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+   .footer-list {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 0;
+  }
+
+  .footer-title{
+    max-width: 300px;
+  }
+
+  .footer-input {
+    padding: 14px 23px;
+  }
+
+  .footer-form-btn{
+    min-width: 128px;
+  }
+
+  .modal{
+    width: 517px;
+    min-height: 628px;
+    padding: 40px 40px;
+  }
+   
+  .btn-modal{
+    top: 24px;
+    right: 24px;
+    width: 28px;
+    height: 28px;
+  }
+  .modal-title{
+    max-width: 298px;
+    font-size: 24px;
+    line-height: 1.1;
+    margin-bottom: 40px;
+  }
+
+  .modal-input{
+    height: 68px;
+  }
+
+  .modal-input::placeholder, .modal-textarea::placeholder{
+    font-size: 18px;
+    }
+
+    .modal-textarea{
+        height: 137px;
+        padding: 22px 24px;
+    }
+
+    .modal-label{
+          display: flex;
+    align-items: center;
+    }
+    
+.modal-label span{
+    width: 20px;
+    height: 20px;
+  border-radius: 6px;
+}
+}  
+
+
+@media screen and (min-width: 1166px) {
+    .container{
+        max-width: 1166px;
+    }
+    .open-menu-btn{
+        display: none;
+    }
+
+    .header-list{
+        margin-left: auto;
+        margin-right: 90px;
+    }
+
+    .hero-container{
+          padding-top: 381px;
+             background-image: linear-gradient(180deg, rgba(17, 17, 17, 0.4) 0%, rgba(17, 17, 17, 0.4) 100%)
+   ,url(../img/chocolate.jpg);
+    }
+
+    @media (min-device-pixel-ratio:2), 
+(min-resolution: 192dpi),
+(min-resolution: 2dppx){
+    .hero-container{
+        background-image: linear-gradient(180deg, rgba(17, 17, 17, 0.4) 0%, rgba(17, 17, 17, 0.4) 100%)
+   ,url(../img/сhocolate-2х.jpg);
+    }
+}
+
+    .made > .container{
+        max-width: 1166px;
+    }
+
+    .benefits-list{
+    padding-left: 18px;
+    padding-right: 18px;
+    gap: 88px;
+    }
+
+    .benefits-item{
+       max-width: unset;
+          width: calc((100% - 176px) / 3);
+    }
+
+
+    .benefits-item:not(:last-child)::after{
+        content: '';
+        position: absolute;
+        height: 124px;
+        width: 1px;
+        right: -18px;
+        top: 60px;
+       border: 1px solid rgba(255, 255, 255, 0.5);;
+        display: block;
+    }
+
+    .taste{
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    .taste-item{
+         width: calc((100% - 57px) / 4);
+    }
+     
+    .taste-list{
+        gap: 19px;
+    }
+
+    .taste-item {
+        width: calc((100% - 57px) / 4);
+    }
+     .made{
+        padding-top: 50px;
+        padding-bottom: 50px;
+     }
+
+     .made-container{
+        flex-wrap: nowrap;
+     }
+
+     .made-item{
+            max-width: 425px;
+     }
+
+     .made-item:not(:last-child){
+        margin-bottom: 24px;
+    }
+
+    .love{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .loved-list{
+        gap: 50px 28px;
+    }
+
+    .loved-item{
+      width: calc((100% - 56px) / 3);
+    }
+
+    .footer-list{
+        gap: 24px;
+    }
+
+    .footer-input::placeholder{
+        font-size: 18px;
+    }
+
+    .footer-input{
+        width: 313px;
+    }
+
+    .footer-form-btn{
+        min-width: 137px;
+    }
+}
